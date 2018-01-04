@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script src="//content.jwplatform.com/libraries/hVWwB1qT.js"> </script>
+</head>
+<body>
+	<div id="myElement" style="height:500px"></div>
+	<script type="text/javaScript">
+	var playerInstance = jwplayer("myElement");
+	playerInstance.setup({
+		"playlist": [{
+			"file": "v1/stream.mpd",
+			"image": "v1/img.png",
+			"title": "Test video 1"
+		},{
+			"file": "v2/stream.mpd",
+			"image": "v2/img.png",
+			"title": "Test video 2"
+		}],
+		width: "75%",
+		aspectratio: "16:9"
+	});
+	</script>
+</body>
+</html>
